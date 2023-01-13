@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+header {
+    padding: 32px 24px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgray;
+}
+
+.banner {
+    margin: 32px 24px;
+}
+
+.description {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.description .start {
+    width: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
